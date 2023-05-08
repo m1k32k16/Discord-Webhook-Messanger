@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Discord Webhook Sender</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Discord Webhook Sender</h1>
+
+        <label for="webhook-1">Webhook 1:</label>
+        <input type="text" id="webhook-1" placeholder="Enter webhook URL...">
+
+        <label for="title-1">Title:</label>
+        <input type="text" id="title-1" placeholder="Enter message title...">
+
+        <label for="message-1">Message:</label>
+        <textarea id="message-1" placeholder="Enter message..."></textarea>
+
+        <label for="color-1">Box Color:</label>
+        <select id="color-1">
+            <option value="#7289DA">Default (Blue)</option>
+            <option value="#FFA500">Orange</option>
+            <option value="#FF0000">Red</option>
+            <option value="#00FF00">Green</option>
+            <option value="#FFFF00">Yellow</option>
+            <option value="#800080">Purple</option>
+        </select>
+
+        <div class="box" id="box-1"></div>
+
+        <input type="button" id="send-button-1" value="Send Message">
+
+        <hr>
+
+        <label for="webhook-2">Webhook 2:</label>
+        <input type="text" id="webhook-2" placeholder="Enter webhook URL...">
+        <label for="title-2">Title:</label>
+        <input type="text" id="title-2" placeholder="Enter message title...">
+    
+        <label for="message-2">Message:</label>
+        <textarea id="message-2" placeholder="Enter message..."></textarea>
+    
+        <label for="color-2">Box Color:</label>
+        <select id="color-2">
+            <option value="#7289DA">Default (Blue)</option>
+            <option value="#FFA500">Orange</option>
+            <option value="#FF0000">Red</option>
+            <option value="#00FF00">Green</option>
+            <option value="#FFFF00">Yellow</option>
+            <option value="#800080">Purple</option>
+        </select>
+    
+        <div class="box" id="box-2"></div>
+    
+        <input type="button" id="send-button-2" value="Send Message">
+    
+    </div>
+    
+    <script src="assets/script.js"></script>
+</body>
+</html>
